@@ -9,17 +9,15 @@ if this makes you unhappy, please conntact me to delete.
   
 moving_average_filter1 ("TOPB")
 ###
->*function
-*process one channel data of stock price   
-  >codes   
+>function: process one channel data of stock price   
+codes   
     main.cpp                 : host program  
     moving_average.cl        : opencl kernel  
     stock_array1.txt         : test file  
 
 moving_average_filter2 ("TOPB") 
 ###
-  > function  
-    process 4 channels data of stock price at one time  
+  > function: process 4 channels data of stock price at one time  
    codes  
     main.cpp                 : host program  
     moving_average_vec4.cl   : opencl kernel  
@@ -27,8 +25,7 @@ moving_average_filter2 ("TOPB")
     
 moving_average_filter3 ("TOPB") 
 ###
-  >function  
-    process 8 channels data of stock price based on kernel "moving_average_vec4.cl"  
+  >function: process 8 channels data of stock price based on kernel "moving_average_vec4.cl"  
   codes  
     main.cpp                 : host program  
     moving_average_many.cl   : opencl kernel  
@@ -36,8 +33,7 @@ moving_average_filter3 ("TOPB")
 
 moving_average_filter4 ("TOPB") 
 ###
-  >function  
-    process 8 channels data of stock price based on kernel based on parallel model  
+  >function: process 8 channels data of stock price based on kernel based on parallel model  
   codes  
     main.cpp                 : host program  
     moving_average_vec4_para.cl : opencl kernel  
