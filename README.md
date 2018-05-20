@@ -2,9 +2,9 @@
 These are OpenCL Programming Examples for learning.
 
 The codes are running with Visual Stdio 2017,  
-you need to setup your tool to make OpenCL porgrams run firstly. 
+you need to setup your tool to run OpenCL porgrams firstly. 
 
-Codes copied from <The OpenCL Programming Book> are marked with "TOPB".  
+Codes are copied from "The OpenCL Programming Book" which are marked with "TOPB".  
 if this makes you unhappy, please conntact me to delete.  
   
 moving_average_filter1 ("TOPB")
