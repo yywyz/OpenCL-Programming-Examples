@@ -31,10 +31,3 @@ __kernel void moving_average_vec4_para(__global int4 *values,
 
 }
 
-/*
-	for(j=0; j<loop_num; j++) {
-	for (i=0; i < length; i++) {
-			average[i*loop_num + j] = j+1;
-		}
-	}
-*/
