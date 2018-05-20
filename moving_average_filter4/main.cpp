@@ -78,7 +78,7 @@ int main(void)
 	ret = clBuildProgram(program, 1, &device_id, NULL, NULL, NULL);
 
 	/* Create kernel */
-	kernel = clCreateKernel(program, "moving_average_many", &ret);
+	kernel = clCreateKernel(program, "moving_average_vec4_para", &ret);
 
 	/* Create buffer for the input data on the device */
 	memobj_in = clCreateBuffer(context, CL_MEM_READ_WRITE,
