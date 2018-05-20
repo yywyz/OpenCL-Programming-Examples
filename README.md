@@ -9,7 +9,7 @@ if this makes you unhappy, please conntact me to delete.
   
 moving_average_filter1 ("TOPB")  
   >function   
-    process one channel data of stock price   
+    >>process one channel data of stock price   
   >codes   
     main.cpp                 : host program  
     moving_average.cl        : opencl kernel  
