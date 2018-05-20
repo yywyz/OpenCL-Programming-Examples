@@ -30,10 +30,17 @@ moving_average_filter3 ("TOPB")
 
 moving_average_filter4 ("TOPB") 
 ###
-  >function: process 8 channels data of stock price based on kernel based on parallel model    
+  >function: process 8 channels data of stock price based on kernel based on data parallel model    
     main.cpp                 : host program  
     moving_average_vec4_para.cl : opencl kernel  
     stock_array_vec4_par.txt : test file  
+
+moving_average_filter5 ("TOPB") 
+###
+  >function: process 4 channels data of stock price based on kernel based on task parallel model    
+    main.cpp                 : host program  
+    moving_average_vec4.cl   : opencl kernel  
+    stock_array_4.txt        : test file  
 
 
 
