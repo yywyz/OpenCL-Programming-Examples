@@ -7,7 +7,8 @@ you need to setup your tool to make OpenCL porgrams run firstly.
 Codes copied from <The OpenCL Programming Book> are marked with "TOPB".  
 if this makes you unhappy, please conntact me to delete.  
   
-##moving_average_filter1 ("TOPB")  
+moving_average_filter1 ("TOPB")
+##
 >*function
 *process one channel data of stock price   
   >codes   
