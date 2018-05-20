@@ -1,7 +1,7 @@
 # OpenCL-Programming-Examples
 These are OpenCL Programming Examples for learning.
 
-The codes are running with Visual Stdio 2017, 
+The codes are running with Visual Stdio 2017,  
 you need to setup your tool to make OpenCL porgrams run firstly.
 
 Codes copied from <The OpenCL Programming Book> are marked with "TOPB".
