@@ -8,17 +8,16 @@ Codes copied from <The OpenCL Programming Book> are marked with "TOPB".
 if this makes you unhappy, please conntact me to delete.  
   
 moving_average_filter1 ("TOPB")  
-    function   
-        process one channel data of stock price   
-  ---- codes   
-    ---- main.cpp                 : host program  
-    ---- moving_average.cl        : opencl kernel  
-    ---- stock_array1.txt         : test file  
+  >----  function   
+    >>---- process one channel data of stock price   
+  >---- codes   
+    >>---- main.cpp                 : host program  
+    >>---- moving_average.cl        : opencl kernel  
+    >>---- stock_array1.txt         : test file  
 
 moving_average_filter2 ("TOPB")  
-====
-  ---- function  
-    ---- process 4 channels data of stock price at one time  
+  >---- function  
+    >>---- process 4 channels data of stock price at one time  
   ---- codes  
     ---- main.cpp                 : host program  
     ---- moving_average_vec4.cl   : opencl kernel  
