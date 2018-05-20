@@ -2,15 +2,15 @@
 These are OpenCL Programming Examples for learning.
 
 The codes are running with Visual Stdio 2017,  
-you need to setup your tool to make OpenCL porgrams run firstly.
+you need to setup your tool to make OpenCL porgrams run firstly. 
 
-Codes copied from <The OpenCL Programming Book> are marked with "TOPB".
-if this makes you unhappy, please conntact me to delete.
+Codes copied from <The OpenCL Programming Book> are marked with "TOPB". 
+if this makes you unhappy, please conntact me to delete. 
   
-moving_average_filter1 ("TOPB")
-    ---- function
-      ---- process one channel data of stock price
-    ---- codes
+moving_average_filter1 ("TOPB") 
+    ---- function 
+      ---- process one channel data of stock price 
+    ---- codes 
       ---- main.cpp                 : host program
       ---- moving_average.cl        : opencl kernel
       ---- stock_array1.txt         : test file
