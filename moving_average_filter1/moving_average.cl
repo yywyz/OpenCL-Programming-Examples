@@ -1,7 +1,3 @@
-//This code is copied from <The OpenCL Programming Book>.
-//if this makes you unhappy, please conntact me to delete.
-//Thanks.
-
 __kernel void moving_average(__global int *values,
 	__global float *average,
 	int length,
