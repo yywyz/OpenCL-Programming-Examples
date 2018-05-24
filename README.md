@@ -8,13 +8,13 @@ Codes are copied from "The OpenCL Programming Book" which are marked with "TOPB"
 If this makes you unhappy, please contact me to delete.  
   
  
-work_id_2dim_pooling
+work_id_2dim_pooling(20180524)
 ###
   >function: output global id and local id of work-items for 2 dimensions data    
     main.cpp                 : host program  
     pooling.cl               : opencl kernel, deep learning max pooling , pooling size 2*2
 
-work_id_1dim 
+work_id_1dim(20180524) 
 ###
   >function: output global id and local id of work-items for 1 dimesion data    
     main.cpp                 : host program  
