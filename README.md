@@ -6,7 +6,12 @@ you need to setup your tool to run OpenCL porgrams firstly.
 
 Codes are copied from "The OpenCL Programming Book" which are marked with "TOPB".  
 If this makes you unhappy, please contact me to delete.  
-  
+
+CNN Convolution (20180721)
+###
+  >function: for convoluational operation in CNN of Deep Learning    
+    main.cpp                 : host program  
+    Conv2D.cl                : 2 dimension convolution
  
 work_id_2dim_pooling(20180524)
 ###
