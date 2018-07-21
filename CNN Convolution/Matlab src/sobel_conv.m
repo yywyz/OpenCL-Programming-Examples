@@ -4,6 +4,8 @@
 %% Reference: https://blog.csdn.net/qq_29540745/article/details/51918004
 close all; clc; clear;
 
+%% please down load lena.png first through below link
+%% https://pan.baidu.com/s/19SPoDPU2sxi3fioHcjE4PA
 lena_rgb = imread('lena.png');
 lena_hsv = rgb2hsv(lena_rgb);
 image    = lena_hsv(:,:,1);
